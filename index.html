@@ -81,14 +81,24 @@
                                Ensure that your birthdate is correct.
                             </p>
                             <p>
-                                <form class="bg-success">
+                                <form class="bg-warning">
                                     <label for="name">What is your First Name:></label>
                                     <input id = "name" type="text" placeholder = "Your First Name">
                                     <br>
+
                                     <label for="date">When were you Born:</label>
                                     <input id="date" placeholder = "Your Date of Birth">
-
                                     <br>
+
+                                    <label for="option">What is your Gender</label>
+                                    <!-- <input type="radio" Name="Gender" value="Male"> Male
+                                    <input type="radio" Name="Gender" value="Female"> Female -->
+                                    <select name="gender" id="">
+                                        <option>value = "Male"</option>
+                                        <option>value = "Female"</option>
+                                    </select>
+                                    <br>
+
                                     <input type = "submit" value="Submit">
                                     <form onsubmit="getName(event)">
 
