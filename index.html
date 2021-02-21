@@ -105,13 +105,18 @@
                                         <input id="date" class="form-control" type="date" name = "date" placeholder = "Your Date of Birth" required>
                                         <br><br>
 
-                                        <label for="gender">What is your Gender</label> <br>
+                                        <!--<label for="gender">What is your Gender</label> <br>
                                         <input type="radio" for = "gender" lass="form-check-input" Name="Gender" value="Male" required> Male <br>
-                                        <input type="radio" for = "gender" class="form-check-input" Name="Gender" value="Female" required> Female
+                                        <input type="radio" for = "gender" class="form-check-input" Name="Gender" value="Female" required> Female -->
                                         <!-- <select name="gender" id="value">
                                             <option>Male</option>
                                             <option>Female</option>
                                         </select> -->
+
+                                        <input type="radio" class="form-check-input" name="gender" id="female" value="female" checked required>
+                                        <label class="form-check-label" for="gender">Female</label>
+                                        <input type="radio" class="form-check-input" name="gender" id="male" value="female" required>
+                                        <label class="form-check-label" for="gender">Male</label>
                                         <br><br>
 
                                         <input class = "button" name = "btn-submit" type = "submit" value="Submit" onclick="getResults(event)">
