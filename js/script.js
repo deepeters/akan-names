@@ -3,8 +3,10 @@ var fName = ['Akosua', 'Adwoa', 'Abenaa', 'Akua', 'Yaa', 'Afua', 'Ama']
 var weekDays = ['Sun','Mon','Tue','Wen','Thur','Fri','Sat']
 
 
-function myForm() {
-    if (document
+function getName(event) {
+    event.preventDefault()
+    let myName = document.getElementById("name").value;
+    return myName;
     
 }
 
@@ -16,9 +18,11 @@ let gender = document.getElementById (radio)
         else return female;
     }
 
-let date = document.getElementById (date)
-    let myBirthday = date
-    let day = myBirthday.split () [0]
-    if (day === Mon) {
-        akanName = 
-    }
+function getBirthday(event) {
+    event.preventDefault()
+    let date = document.getElementById (date).value;
+    let myBirthday = new Date(date).toDateString();
+    let dayString = myBirthday.split () [0];
+    var compare = dayString.toDateString();
+    var day = days.indexOf(compare);
+    return day;
