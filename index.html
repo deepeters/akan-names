@@ -82,22 +82,22 @@
                             </p>
                             <p>
                                 <form class="bg-warning">
-                                    <label for="name">What is your First Name:></label>
+                                    <label for="name">What is your First Name:</label>
                                     <input id = "name" type="text" placeholder = "Your First Name">
-                                    <br>
+                                    <br><br>
 
                                     <label for="date">When were you Born:</label>
-                                    <input id="date" placeholder = "Your Date of Birth">
-                                    <br>
+                                    <input id="date" type="date" placeholder = "Your Date of Birth">
+                                    <br><br>
 
                                     <label for="option">What is your Gender</label>
                                     <!-- <input type="radio" Name="Gender" value="Male"> Male
                                     <input type="radio" Name="Gender" value="Female"> Female -->
-                                    <select name="gender" id="">
-                                        <option>value = "Male"</option>
-                                        <option>value = "Female"</option>
+                                    <select name="gender" id="value">
+                                        <option>Male</option>
+                                        <option>Female</option>
                                     </select>
-                                    <br>
+                                    <br><br>
 
                                     <input type = "submit" value="Submit">
                                     <form onsubmit="getName(event)">
