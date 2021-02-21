@@ -82,6 +82,22 @@ function getGender(event) {
 return message;
 }
 
+function validateForm() {
+    if (document.myForm.name.value == "") {
+        alert("Please provide your name!");
+        return false;
+    }
+    if (document.myForm.date.value == "") {
+        alert("Please provide your Birthday!");
+        return false;
+    }
+    if (document.myForm.gender.value == "") {
+        alert("Please provide your Gender!");
+        return false;
+    }
+    return true;
+}
+
 function getResults(event) {
 
 event.preventDefault();

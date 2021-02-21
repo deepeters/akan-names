@@ -98,16 +98,16 @@
                                 <form class="bg-warning" id = "myForm">
                                         <br>
                                         <label for="name">What is your First Name:</label>
-                                        <input id = "name" type="text" placeholder = "Your First Name">
+                                        <input id = "name" class="form-control" type="text" placeholder = "Your First Name">
                                         <br><br>
 
                                         <label for="date">When were you Born:</label>
-                                        <input id="date" type="date" placeholder = "Your Date of Birth">
+                                        <input id="date" class="form-control" type="date" placeholder = "Your Date of Birth">
                                         <br><br>
 
                                         <label for="gender">What is your Gender</label> <br>
-                                        <input type="radio" Name="Gender" value="Male"> Male <br>
-                                        <input type="radio" Name="Gender" value="Female"> Female
+                                        <input type="radio" class="form-check-input" Name="Gender" value="Male"> Male <br>
+                                        <input type="radio" class="form-check-input" Name="Gender" value="Female"> Female
                                         <!-- <select name="gender" id="value">
                                             <option>Male</option>
                                             <option>Female</option>
@@ -116,7 +116,11 @@
 
                                         <input type = "submit" value="Submit">
                                         <form onsubmit="getName(event)">
-
+                                        <br><br>
+                                        <fieldset>
+                                            <Legend>Results</Legend>
+                                            <p id="displayarea"></p>
+                                        </fieldset>
                                     </form>
                             </script>
                              </p>
