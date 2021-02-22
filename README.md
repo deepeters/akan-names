@@ -4,6 +4,7 @@
 
 ### Project Description
 An individual project to display a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name.
+<img src="images/screenshot.png">
 
 ### Setup Instructions
 The operations of the project are fairly straighforward. 
