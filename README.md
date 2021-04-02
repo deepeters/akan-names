@@ -1,5 +1,3 @@
-# DENNIS NJENGA SECOND IP SUBMISSION
-
 ### Project Name: AKAN NAMES
 
 ### Project Description
